@@ -49,10 +49,11 @@ To transform raw predictions into actionable strategy, I utilized **Tableau** to
 
 *Key Insight:* The visualization reveals that distance from work and transportation expenses have a non-linear but significant impact on long-term absenteeism trends.
 
-## 📂 Project Structure
-```text
-├── Data/                   # Raw & Cleaned CSV files
-├── Notebooks/              # Exploratory Data Analysis (EDA) & Training
-├── Models/                 # Saved model weights (.pickle)
-├── absenteeism_module.py   # Production-ready Python class
-└── README.md               # You are here
+├── .idea/                  # Project configuration
+├── Absenteeism_data.csv    # Raw source data
+├── absenteeism_module.py   # Core Logic: The "Brain" class for preprocessing & prediction
+├── main.py                 # Entry point of the application
+├── model                   # Saved Logistic Regression model weights
+├── scaler                  # Saved StandardScaler object for data normalization
+├── tableau.png             # Visual insights & dashboard results
+└── using-scaler-model.py   # Integration script demonstrating model deployment
