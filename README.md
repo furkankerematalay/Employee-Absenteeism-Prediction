@@ -42,6 +42,13 @@ The algorithm assigns a "Weight" to each feature. In this project, the most infl
 
 ---
 
+## 📊 Business Intelligence & Insights
+To transform raw predictions into actionable strategy, I utilized **Tableau** to visualize the key drivers of absenteeism. 
+
+![Tableau Dashboard](./tableau.png)
+
+*Key Insight:* The visualization reveals that distance from work and transportation expenses have a non-linear but significant impact on long-term absenteeism trends.
+
 ## 📂 Project Structure
 ```text
 ├── Data/                   # Raw & Cleaned CSV files
